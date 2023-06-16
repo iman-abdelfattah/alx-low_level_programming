@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio,h>
+#include <stdio.h>
 
 /**
  * main - entry point
@@ -9,7 +9,6 @@
  *              greater than, is zero and is less than 6.
  *
  * Return: 0 (success)
- *
 */
 
 int main(void)
