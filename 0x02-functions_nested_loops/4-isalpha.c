@@ -5,7 +5,7 @@
  * @c: takes input from other function.
  * Return: 1 is c if true else 0
 */
-int print_sign(int n)
+int print_sign(int c)
 {
 if (c >= 97 && c <=122)
 return (1);
