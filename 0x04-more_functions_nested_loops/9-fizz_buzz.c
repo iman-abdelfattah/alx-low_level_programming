@@ -21,9 +21,9 @@ printf("FizzBuzz");
 else
 printf("%d", num);
 if (num != 100)
-printf(" ");
+printf(' ');
 else
-printf("\n");
+printf('\n');
 }
 return (0);
 }
