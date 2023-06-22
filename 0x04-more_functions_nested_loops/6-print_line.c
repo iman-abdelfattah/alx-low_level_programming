@@ -7,7 +7,7 @@ void print_line(int n)
 {
 int lnchr;
 if (n <= 0)
-_putchr('\n');
+_putchar('\n');
 else
 {
 for (lnchr = 1; lnchr <= n; lnchr++)
