@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /**
  * main - print numbers 1 - 100 followed by a new line
  *        numbers that are multiples of 3 print Fizz
@@ -13,17 +13,17 @@ int num;
 for (num = 1; num <= 100; num++)
 {
 if (num % 3 == 0 && !(num % 5 == 0))
-printf('Fizz');
+printf("Fizz");
 else if (num % 5 == 0 && !(num % 3 == 0))
-printf('Buzz')
+printf("Buzz")
 else if (num % 3 == 0 && num % 5 == 0)
-printf('FizzBuzz');
+printf("FizzBuzz");
 else
-printf('%d', num);
+printf("%d", num);
 if (num != 100)
-printf(' ');
+printf(" ");
 else
-printf('\n');
+printf("\n");
 }
 return (0);
 }
