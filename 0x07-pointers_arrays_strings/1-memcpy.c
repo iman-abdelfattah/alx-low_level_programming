@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * *_memcpy - copies memory area
  * @dest: memory area
@@ -6,7 +6,7 @@ nclude "main.h"
  * @n: length of src to be copied
  * Return: the pointer to destination.
 */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsighted i;
 for (i = 0; i < n; i++)
