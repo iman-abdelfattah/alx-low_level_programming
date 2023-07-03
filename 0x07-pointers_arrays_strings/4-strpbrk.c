@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 /**
  * _strpbrk - search a string for any of a group of bytes
  * @s: string
