@@ -4,7 +4,7 @@
  * main - print sum of two numbers
  * @argc: number of command line arguments
  * @argv: pointer to array of command line arguments
- * Return: 0 - in success, 1 in fail
+ * Return: 0 - success, 1 - fail
 */
 int main(int argc, char *argv[])
 {
@@ -18,4 +18,6 @@ else
 {
 printf("error\n");
 return (1);
+}
+return (0);
 }
