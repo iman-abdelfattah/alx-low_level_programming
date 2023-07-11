@@ -7,12 +7,10 @@
 */
 char *create_array(unsigned int size, char c)
 {
-unsigned int size;
-char c;
-int *p = char *malloc(unsigned int size, char c);
-if (*p == NULL)
-{
-printf("failed to allocate memory\n");
-return (1);
-}
+char *p = (char*) malloc(size *sizeof(char));
+if (p == 0 || size ==0)
+return (0);
+while (size--)
+p[size] = c;
+return (p);
 }
