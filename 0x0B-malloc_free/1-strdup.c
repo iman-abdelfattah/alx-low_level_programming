@@ -12,7 +12,7 @@ if (str == NULL)
 return (NULL);
 for (; str[size] != '\0'; size++)
 ;
-x = malloc(size * sizeof(str) + 1);
+x = malloc(size * sizeof(*str) + 1);
 if (x == 0)
 return (NULL);
 else
