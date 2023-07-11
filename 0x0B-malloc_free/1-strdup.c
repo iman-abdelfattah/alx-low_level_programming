@@ -6,19 +6,19 @@
 */
 char *_strdup(char *str)
 {
-char *str = (char *)malloc(strdup(str) + 1);
+int i = 0, size = 0;
+char *x;
 if (str == NULL)
-{
 return (NULL);
-}
-else if (str != NULL)
-{
-return (str);
-}
+for (; str[size] != '\0'; size++)
+;
+x = malloc(size * sizeof(str) + 1);
+if (x == 0)
+return (NULL);
 else
 {
-return (NULL);
+for (; i < size; i++)
+x[i] = str[i];
 }
-free(str);
-return (0);
+return (x);
 }
